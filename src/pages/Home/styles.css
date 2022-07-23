@@ -1,0 +1,40 @@
+.container{
+  min-height: 100vh;
+  background-color: rgb(229, 230, 235);
+  padding: 20px;
+}
+
+.produtos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap:20px;
+  
+}
+
+.card-produto{
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  transition: transform 100ms ease-in-out;
+}
+
+.card-produto:hover{
+  transform: scale(1.1);
+}
+
+.card-produto img{
+  max-width: 100%;
+}
+.produto-descricao{
+  padding: 20px;
+}
+
+.produto-descricao h3{
+  color: gray;
+  font-size: 12px;
+  text-align: end;
+}
+
+.search{
+  margin-bottom: 20px;
+
+}
